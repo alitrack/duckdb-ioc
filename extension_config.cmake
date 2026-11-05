@@ -2,8 +2,8 @@
 # Required by extension-ci-tools even for pure-Rust (cargo) extensions.
 # See: https://github.com/duckdb/extension-ci-tools
 
-duckdb_extension_load(units
+duckdb_extension_load(ioc
 	LOAD_TESTS
-	GIT_URL https://github.com/alitrack/duckdb-units
+	GIT_URL https://github.com/alitrack/duckdb-ioc
 	GIT_TAG main
 )
